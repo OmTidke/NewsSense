@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.card-login{
+    /* height: 500px; */
+    width: 500px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.card-login:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+
+}
+
+.center-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button{
+    width: 100px;
+}
+
+.blue{
+    color: #2294ed;
+}
+
+.bg-image-login{
+    background-image: url(../assets/login.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 991px) {
+    .card{
+        width: 100%;
+    }
+
+   
+}
+

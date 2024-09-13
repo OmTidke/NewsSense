@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Add this to your CSS file */
+.popover-container {
+    width: fit-content;
+    /* Set the desired width */
+    height: fit-content;
+    /* Set the desired height */
+    background-color: #fff;
+    /* Background color */
+    border: 1px solid #ccc;
+    /* Border and other styling */
+    position: absolute;
+    /* Position the popover as needed */
+    top: 50px;
+    /* Adjust the top position as needed */
+    right: 10px;
+    /* Adjust the right position as needed */
+    z-index: 999;
+    /* Set a high z-index to ensure it's displayed above other content */
+    padding: 10px;
+    /* Add padding for content inside the popover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Add a shadow for depth */
+}
+
+.menuListItem {
+    padding: 0 27px;
+    display: block;
+    line-height: 50px;
+    font-size: 17px;
+    -webkit-transition: background-color 0.3s; /* Fix the transition property */
+    transition: background-color 0.3s; /* Fix the transition property */
+    background: #fff; /* Set the background color to white */
+    border-bottom: 4px solid transparent; /* Set a transparent border */
+  }
+  
+  .menuListItem:hover {
+    background: #bbbbbb;
+    border-bottom: 4px solid #11a8ab;
+    text-decoration: none;
+  }
+  
+
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    color: var(--primary-text-color);
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    color: var(--secondary-text-color);
+    line-height: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+nav {
+    background-color: #f3faff;
+    box-shadow: 0 0 4px #bbd0e2;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+
+.main-nav {
+    justify-content: space-between;
+    padding-block: 8px;
+}
+
+.company-logo img {
+    width: 180px;
+}
+
+.nav-links ul {
+    gap: 16px;
+    text-decoration: none;
+}
+
+.hover-link {
+    cursor: pointer;
+}
+
+.hover-link:hover {
+    color: var(--secondary-text-color);
+}
+
+.hover-link:active {
+    color: red;
+}
+
+.active {
+    color: red;
+}
+
+.search-bar {
+    height: 32px;
+    gap: 8px;
+    justify-content: flex-end !important;
+}
+
+.news-input {
+    width: 200px;
+    height: 100%;
+    padding-inline: 12px;
+    border-radius: 4px;
+    border: 2px solid #bbd0e2;
+    font-family: "Roboto", sans-serif;
+}
+
+.search-button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    height: 40px;
+}
+
+.search-button:hover {
+    background-color: orange;
+}
+
+.navbar-expand-lg .navbar-nav {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        /* Center the navigation items horizontally */
+    }
+}
+
+
+.login-btn {
+    background-color: orange;
+    padding: 8px 24px;
+    border-radius: 10px;
+    height: 40px;
+    border: 0px;
+}
+
+.login-btn:hover {
+    background-color: #2294ed;
+
+}
+
+.profile-btn {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
