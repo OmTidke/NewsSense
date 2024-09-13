@@ -20,3 +20,11 @@ Frontend: React, JavaScript, CSS
 Backend: Node.js, Express
 Database: MongoDB
 Sentiment Analysis: Sentiment API (or custom model using NLP libraries)
+
+# Contact
+If you have any questions or need further assistance, feel free to reach out:
+
+Author: Sahish Ashok Pandav
+Email: sahishpandav@gmail.com
+
+We hope you enjoy using IPM as much as we enjoyed building it! If you find this project useful, don't forget to ⭐ star the repository.
